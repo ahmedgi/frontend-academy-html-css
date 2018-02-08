@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    background-color: #F8F8F8;
+    max-width: 100%;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: #35424a;
+    padding-top: 20px;
+    border-bottom: 2px solid #967d4e;
+}
+.navbar h2{
+    color: white;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+    font-weight: bold;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:link {
+    color: #967d4e;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color:  #967d4e;
+}
+
+/* selected link */
+a:active {
+    color: #967d4e;
+}
+
+
+.active {
+    color: #967d4e;
+}
+.titre{
+    padding-left: 60px;
+}
+b {
+    color: #967d4e;
+}
+footer{
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background:#967d4e;
+    color: white;
+}
+.jumbotron{
+    text-align: center;
+    height: 300px;
+    padding: 50px;
+    background-image: url("../images/showcase.jpg");
+    color:white;
+
+}
+.jumbotron h1{
+    margin: 0px;
+}
+.newsletter{
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: #35424a;
+    color:white;
+    dsplay:inline;
+    height: 60px;
+}
+.newsletter h2,.newsletter form{
+    display:inline;
+}
+form{
+    float: right;
+}
+.container{
+    padding-top: 20px;
+    
+    padding: 40px   ;
+    position: relative;
+}
+
+img{
+    max-width: 100px;
+    height: 100px;
+}
+
+.content{
+    max-width: 400px;
+}
+.container .content,.container .about,.container .wedo {
+    display: inline-block;
+}
+
+.about{
+    max-width: 800px;
+    margin: 20px;
+ }
+.about .colored{
+    background-color: #35424a;
+    color:white;
+    padding: 10px;
+}
+.wedo{
+    margin-right: 10px;
+    margin-left: 40px;
+    max-width: 300px;
+    background-color:#35424a ;
+    color:white;
+    padding: 20px;
+    position : absolute;
+    margin-bottom: 60px;
+}
+.btn{
+    background-color: #967d4e;
+    border: none;
+    color: white;; /* Green */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+input{
+    padding: 10px 20px;
+}
+.paragraph{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#e6e6e6;
+}
